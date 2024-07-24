@@ -15,7 +15,7 @@ export class ReviewEntity {
     comment:string;
 
     @CreateDateColumn()
-    createdAt:Timestamp;
+    createdAt:Timestamp; 
 
     @UpdateDateColumn()
     updatedAt:Timestamp;
